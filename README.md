@@ -1,27 +1,10 @@
 # Contributor-Guidelines
 
-A brief description of your project.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
-
-## Introduction
-
-Explain what your project does and why it's important. Highlight its main features and benefits.
 
 ## Getting Started
-
-Provide instructions on how to set up the project locally. Include information about any prerequisites and installation steps.
-
-### Prerequisites
-
-List any software, libraries, or dependencies that contributors need to install before they can use your project.
+It's importannt to have some basic knowledge about version control with Git, which is indeed important for software development and collaboration. 
+Contributors must use branches to isolate their work, collaborate effectively, and keep the main code stable.
+You can find more [details here](https://dev.to/slashgear_/git-tip-why-you-should-not-keep-a-local-master-branch-3400) and also practice git and branching by practicing from [here](https://learngitbranching.js.org/?locale=en_US). 
 
 ### Installation
 
@@ -30,11 +13,9 @@ List any software, libraries, or dependencies that contributors need to install 
 git clone https://github.com/yourusername/your-repo.git
 ```
 
-3. Install the required dependencies:
+2. Install the required dependencies:
    `All the required dependencies required to run the project are given in the repo itself`
 
-## Usage
-Explain how to use your project once it's set up. Provide code examples, screenshots, or links to documentation if available.
 
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
@@ -54,6 +35,10 @@ Push your changes to your forked repository:
 
 ```
 git push origin feature/your-feature-name
+```
+or 
+```
+git push --set-upstream origin (branch-name)
 ```
 
 Open a pull request on this repository. Be sure to provide a clear and concise description of your changes.
